@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-block">
+            <div class="header-search">
+                <input type="text" class="search-input" placeholder="Search">
+            </div>
+            <div class="navigation">
+
+                <div class="user">
+                    <img src="img/avatar.png" alt="Avatar" class="user-avatar">
+                    <span class="user-name">Mateusz</span>
+                </div>
+
+                <div class="navigation-panel">
+                    <a href="#" class="navigation-link">Home</a>
+                    <a href="#" class="navigation-link">Create</a>
+                </div>
+
+                <div class="icons-panel">
+                    <a href="#" class="icons-link">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#frend"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icons-link">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#chat"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icons-link">
+
+                        <span class="notification">8</span>
+
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#bell"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icons-link">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#info"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="dropdown-wrapper">
+                    <a href="#" class="icons-dropdown">
+                        <svg class="dropdown" width="12" height="8">
+                            <use xlink:href="img/icons.svg#dropdown"></use>
+                    </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="menu-sidebar">
+
+            <div class="user">
+                <img src="img/avatar.png" alt="avatar" class="user-avatar">
+                <span class="user-name">Mateusz Wierzbicki</span>
+            </div>
+
+            <nav class="nav-group">
+                <a href="#" class="menu-link active">
+                    <svg class="menu-icon" width="24" height="24">
+                        <use xlink:href="img/icons.svg#news"></use>
+                    </svg>
+                    <span class="link-text">News Feed</span>
+                </a>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                        <use xlink:href="img/icons.svg#chat"></use>
+                    </svg>
+                    <span class="link-text">Messages</span>
+                </a>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#market"></use>
+                    </svg>
+                    <span class="link-text">Marketplace</span>
+                </a>
+            </nav>
+
+            <nav class="nav-group">
+                <h3 class="nav-title">Shortcuts</h3>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                        <use xlink:href="img/icons.svg#cup"></use>
+                    </svg>
+                    <span class="link-text">Product Design</span>
+                </a>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                        <use xlink:href="img/icons.svg#cup"></use>
+                    </svg>
+                    <span class="link-text">UX & UI</span>
+                </a>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#cup"></use>
+                    </svg>
+                    <span class="link-text">Figma</span>
+                </a>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#cup"></use>
+                    </svg>
+                    <span class="link-text">Ant Design</span>
+                </a>
+            </nav>
+
+            <nav class="nav-group">
+                <h3 class="nav-title">Explore</h3>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                        <use xlink:href="img/icons.svg#flag"></use>
+                    </svg>
+                    <span class="link-text">Pages</span>
+                </a>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                        <use xlink:href="img/icons.svg#headphone"></use>
+                    </svg>
+                    <span class="link-text">Groups</span>
+                </a>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#home"></use>
+                    </svg>
+                    <span class="link-text">Events</span>
+                </a>
+                <a href="#" class="menu-link">
+                    <svg class="menu-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#rocket"></use>
+                    </svg>
+                    <span class="link-text">Games</span>
+                </a>
+            </nav>
+
+        </div>
+        <!-- /.menu-sidebar -->
+
+        <div class="main-feed">
+            <div class="create-post">
+                <div class="create-post-header">
+                    <h3 class="create-post-title">Create post</h3>
+                </div>
+                <div class="create-post-body">
+                    <img src="/img/avatar.png" alt="avatar" class="user-avatar">
+                    <div class="create-post-intut" contenteditable="true">What’s on your mind, Mateusz?</div>
+                </div>
+                <div class="create-post-footer">
+                    <a href="#" class="button-create">
+                        <img src="img/picture.png" alt="picture" class="icom-button">
+                        <span class="text-button">Photo/Video</span>
+                    </a>
+                    <a href="#" class="button-create">
+                        <img src="img/user-add.png" alt="picture" class="icom-button">
+                        <span class="text-button">Tag friends</span>
+                    </a>
+                    <a href="#" class="button-create">
+                        <img src="img/smile.png" alt="picture" class="icom-button">
+                        <span class="text-button">Feeling/Activ...</span>
+                    </a>
+                    <a href="#" class="button-create dots">
+                        <img src="img/dots.png" alt="picture" class="icom-button dots">
+
+                    </a>
+                </div>
+            </div>
+            <!-- /.create-post -->
+            <div class="post">
+                <div class="post-header">
+                    <div class="user">
+                        <img src="img/avatar.png" alt="Avatar" class="user-avatar">
+
+                        <div class="post-info">
+                            <a href="#" class="author-link">
+                                <h4 class="post-author">Mateusz Wierzbicki</h4>
+                            </a>
+                            <div class="post-ifo-time">
+                                <span class="post-time">3 hrs</span>
+                                <svg class="settings-icon">
+                                    <use xlink:href="img/icons.svg#settings"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="post-dots">
+                        <svg width="24" height="24">
+                            <use xlink:href="img/icons.svg#dots"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="post-content">
+                    <p class="post-text">
+                        Did you know that all of this was made using only components and styles from Ant Desing System for Figma? Learn more: <a href="https://antforfigma.com">https://antforfigma.com</a>
+                    </p>
+                    <img src="img/post-img.jpg" alt="post-image" class="post-image">
+                </div>
+                <div class="post-likes">
+                    <svg class="likes-icon">
+                        <use xlink:href="img/icons.svg#like-active"></use>
+                    </svg>
+                    <span class="likes-text">15</span>
+                </div>
+                <div class="post-footer">
+                    <button class="button-post">
+                        <svg class="footer-icon">
+                            <use xlink:href="img/icons.svg#like"></use>
+                        </svg>
+                        <span class="text-button">Likes</span>
+                    </button>
+                    <button class="button-post">
+                        <svg class="footer-icon">
+                            <use xlink:href="img/icons.svg#chat"></use>
+                        </svg>
+                        <span class="text-button">Comment</span>
+                    </button>
+
+                    <button class="button-post">
+                        <svg class="footer-icon">
+                            <use xlink:href="img/icons.svg#share"></use>
+                        </svg>
+                        <span class="text-button">Share</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.main-feed -->
+
+        <div class="rigth-sidebar">
+
+        </div>
+        <!-- /.rigth-sidebar -->
+    </div>
+    <!-- /.container -->
+</body>
+
+</html>
